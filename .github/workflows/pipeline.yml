@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: pyhton hello.py
+      - run: python hello.py
   build:
     needs: [test]
     runs-on: windows-latest
